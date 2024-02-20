@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Set the date for the start of Ramadan (change this date as needed)
-  var ramadanStartDate = new Date("march 10, 2024 00:00:00").getTime();
+  var ramadanStartDate = new Date("march 11, 2024 00:00:00").getTime();
 
   // Update the countdown every 1 second
   var x = setInterval(function () {
