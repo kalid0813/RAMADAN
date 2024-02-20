@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+body {
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+    padding: 0;
+    background-image: url('image/pexels-faheem-ahamad-16732826.jpg');
+    background-size: cover;
+            /* Ensures the background image covers the entire body */
+    background-position: center;
+            /* Centers the background image */
+        }
+
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+    background-image: url('');
+    background-size: cover;
+       /* Ensures the background image covers the entire container */
+    background-position: center;
+        /* Centers the background image */
+    padding: 20px;
+    /* Add padding to the container to prevent content from touching the edges */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: aqua;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.countdown {
+    font-size: 36px;
+    color: #333;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.countdown div {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.countdown div span {
+    display: block;
+    font-size: 16px;
+    color: #666;
+}
+.quote {
+    margin-top: 20px;
+    color: rgb(30, 245, 245);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+
+}
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+
+    bottom: 0;
+}
+footer :hover{
+    color: aquamarine;
+}
