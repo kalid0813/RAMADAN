@@ -4,6 +4,7 @@ body {
  
     margin: 0;
     padding: 0;
+    background-color: aquamarine;
     background-image: url('image/pexels-faheem-ahamad-16732826.jpg');
     background-size: cover;
             /* Ensures the background image covers the entire body */
