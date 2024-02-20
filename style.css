@@ -15,8 +15,6 @@ body {
 .container {
     text-align: center;
     margin-top: 100px;
-    background-image: url('image/pexels-faheem-ahamad-16732826.jpg');
-    
     background-size: cover;
        /* Ensures the background image covers the entire container */
     background-position: center;
