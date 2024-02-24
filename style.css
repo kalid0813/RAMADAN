@@ -55,7 +55,13 @@ footer {
     text-align: center;
     padding: 20px 0;
     bottom: 0;
+    display: flex;
 }
 footer :hover{
     color: aquamarine;
+}
+@media only screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
 }
